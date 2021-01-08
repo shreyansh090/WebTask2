@@ -106,6 +106,9 @@ color: #FFFFFF;
     color: white;
     margin-top: 100px;
   }
+  .i2{
+    max-width:10%;
+  }
 
   
   @media (max-width: 800px) {
@@ -160,6 +163,9 @@ color: #FFFFFF;
         text-align: center;
         margin-top: 140px;
         
+      }
+      .i2{
+        max-width:58px;
       }
       
   }
