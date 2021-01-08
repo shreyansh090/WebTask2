@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Medium.ttf);
+  }
+
+
+
+
+
+body {
+   
+
+background: #1D1E20;
+}
+.blurb{
+    margin-left: 0;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.blurb h2 {
+   color:  #13F7D2;
+   
+   font-family: Montserrat;
+   font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 61px;
+letter-spacing: 0.2em;
+
+}
+.lead{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+color: #FFFFFF;
+}
+.text{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+  color: #13F7D2;
+
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+
+
+
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    max-width: 100%;
+ }
+  
+.flex-item-left {
+    
+    padding: 30px;
+    
+    flex: 50%;
+    color: white;
+    margin-top: 140px;
+    max-width: 100%;
+    
+  }
+  
+.flex-item-right {
+   
+    padding: 30px;
+    
+    flex: 50%;
+    color: white;
+    margin-top: 100px;
+  }
+
+  
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    body {
+   
+
+      background: #1D1E20;
+      }
+      .blurb{
+          margin-left: 0;
+          text-align: left;
+          margin-top: 100px;
+      }
+      
+      .blurb h2 {
+         color:  #13F7D2;
+         
+         font-family: Montserrat;
+         font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 61px;
+      letter-spacing: 0.2em;
+      
+      }
+      .lead{
+          font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 37px;
+      
+      color: #FFFFFF;
+      }
+      .text{
+          font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      
+      color: #FFFFFF;
+      }
+      .flex-item-left {
+    
+        padding: 30px;
+        
+        flex: 50%;
+        text-align: center;
+        margin-top: 140px;
+        max-width: 1px;
+      }
+      
+  }
