@@ -90,7 +90,8 @@ color: #FFFFFF;
 .flex-item-left {
     
     padding: 30px;
-    
+    position:relative;
+
     flex: 50%;
     color: white;
     margin-top: 140px;
@@ -114,6 +115,18 @@ color: #FFFFFF;
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(19,247,210)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 } 
   
+.circle{
+  position:absolute;
+  height:100px;
+  width:100px;
+  background: white;
+  top:80%;
+  left:;
+}
+
+
+
+
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
