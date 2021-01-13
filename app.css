@@ -79,7 +79,7 @@ color: #FFFFFF;
     font-size: 4rem;
 }
 
-.flex-container {
+.container {
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -87,7 +87,7 @@ color: #FFFFFF;
     max-width: 100%;
  }
   
-.flex-item-left {
+.imgcontent {
     
     padding: 30px;
     position:relative;
@@ -99,7 +99,7 @@ color: #FFFFFF;
     
   }
   
-.flex-item-right {
+.textcontent {
    
     padding: 30px;
     
@@ -119,16 +119,37 @@ color: #FFFFFF;
   position:absolute;
   height:100px;
   width:100px;
-  background: white;
+  background: #13F7D2;
   top:80%;
-  left:;
+  left:100px;
+  opacity:0.55;
+  border-radius:50%;
+}
+.foot{
+  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.imgf{
+  width: 280px;
+    height: auto;
+}
+.textf{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+color: #FFFFFF;
 }
 
 
-
-
   @media (max-width: 800px) {
-    .flex-container {
+    .container {
       flex-direction: column;
     }
     body {
@@ -136,17 +157,9 @@ color: #FFFFFF;
 
       background: #1D1E20;
       }
-      .blurb{
-          margin-left: 0;
-          text-align: left;
-          margin-top: 100px;
-      }
-      
+     
       .blurb h2 {
-         color:  #13F7D2;
          
-         font-family: Montserrat;
-         font-style: normal;
       font-weight: 500;
       font-size: 30px;
       line-height: 61px;
@@ -154,24 +167,22 @@ color: #FFFFFF;
       
       }
       .lead{
-          font-family: Montserrat;
-      font-style: normal;
+          
       font-weight: 600;
       font-size: 25px;
       line-height: 37px;
       
-      color: #FFFFFF;
+      
       }
       .text{
-          font-family: Montserrat;
-      font-style: normal;
+          
       font-weight: 500;
       font-size: 18px;
       line-height: 24px;
       
-      color: #FFFFFF;
+      
       }
-      .flex-item-left {
+      .imgcontent {
     
         padding: 30px;
         
@@ -180,12 +191,13 @@ color: #FFFFFF;
         margin-top: 140px;
         
       }
+      .textcontent {
+  
+        margin-top: 0px;
+      }
       .i2{
         max-width:50px;
       }
-    .navbar-toggler-icon
-    {
-      color: #db4040;
-    }
+    
      
   }
