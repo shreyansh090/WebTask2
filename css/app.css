@@ -90,11 +90,11 @@ color: #FFFFFF;
 .imgcontent {
     
     padding: 30px;
-    position:relative;
+   
 
     flex: 50%;
     color: white;
-    margin-top: 140px;
+   margin-top:140px;
     max-width: 100%;
     
   }
@@ -121,7 +121,7 @@ color: #FFFFFF;
   width:100px;
   background: #13F7D2;
   top:80%;
-  left:100px;
+  left:10%;
   opacity:0.55;
   border-radius:50%;
 }
@@ -133,10 +133,7 @@ color: #FFFFFF;
     
     
 }
-.imgf{
-  width: 280px;
-    height: auto;
-}
+
 .textf{
   font-family: Montserrat;
 font-style: normal;
@@ -146,9 +143,60 @@ line-height: 24px;
 
 color: #FFFFFF;
 }
+.imgset{
+
+  position: relative;
+  width: 100%;
+   padding-top: 100%;
+  
+  
+}
+.girl{
+  
+  position:absolute;
+  top:0%;
+  left:50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: auto;
+
+}
+.circle{
+  position:absolute;
+  height:25%;
+  width:25%;
+  background: #13F7D2;
+  top:50%;
+  left:10%;
+  opacity:0.55;
+  border-radius:50%;
+}
+.cr1{
+  position:absolute;
+  top:0%;
+  left:80%;
+  width:6.5%;
+}
+.cr2{
+  position:absolute;
+  top:73%;
+  left:55%;
+  width:4.5%;
+}
+
+.iconstyle{
+  width: 100px;
+    height: auto;
+    color: #13F7D2;   
+    
+}
+.b{
+ 
+  -webkit-text-stroke: 3px #1D1E20;
+}
 
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
     .container {
       flex-direction: column;
     }
@@ -188,12 +236,13 @@ color: #FFFFFF;
         
         flex: 50%;
         text-align: center;
-        margin-top: 140px;
+        margin-top:100px;
+        
         
       }
       .textcontent {
   
-        margin-top: 0px;
+        transform: translateY(-180px);
       }
       .i2{
         max-width:50px;
@@ -201,5 +250,5 @@ color: #FFFFFF;
     .foot{
       margin-top: 100px;
     }
-  
+   
   }
