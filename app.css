@@ -73,7 +73,6 @@ color: #FFFFFF;
 
 
 
-
 #headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
@@ -146,6 +145,15 @@ line-height: 24px;
 
 color: #FFFFFF;
 }
+img.girl{
+  
+    height:200px;
+    width:200px;
+}
+
+
+
+
 
 
   @media (max-width: 800px) {
