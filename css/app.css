@@ -17,6 +17,7 @@ background: #1D1E20;
     margin-left: 0;
     text-align: left;
     margin-top: 100px;
+    
 }
 
 .blurb h2 {
@@ -28,6 +29,10 @@ font-weight: 500;
 font-size: 50px;
 line-height: 61px;
 letter-spacing: 0.2em;
+animation-name:f;
+  animation-duration: 2s;
+  opacity:0.8;
+
 
 }
 .lead{
@@ -38,6 +43,10 @@ font-size: 30px;
 line-height: 37px;
 
 color: #FFFFFF;
+animation-name:f;
+  animation-duration: 2s;
+  
+ 
 }
 .text{
     font-family: Montserrat;
@@ -47,6 +56,9 @@ font-size: 20px;
 line-height: 24px;
 
 color: #FFFFFF;
+animation-name:f;
+  animation-duration: 2.5s;
+
 }
 
 
@@ -148,6 +160,8 @@ color: #FFFFFF;
   position: relative;
   width: 100%;
    padding-top: 100%;
+   animation-name:f;
+   animation-duration: 2.5s;
   
   
 }
@@ -159,6 +173,7 @@ color: #FFFFFF;
   transform: translateX(-50%);
   width: 70%;
   height: auto;
+ 
 
 }
 .circle{
@@ -170,24 +185,35 @@ color: #FFFFFF;
   left:10%;
   opacity:0.55;
   border-radius:50%;
+  animation-name:big1;
+  animation-duration: 2s;
+  animation-delay: 1.5;
 }
 .cr1{
   position:absolute;
   top:0%;
   left:80%;
   width:6.5%;
+  animation-name:big;
+  animation-duration: 2s;
+  animation-delay: 1.5;
 }
 .cr2{
   position:absolute;
   top:73%;
   left:55%;
   width:4.5%;
+  animation-name:big;
+  animation-duration: 2s;
+  animation-delay: 1.5;
+
 }
 
 .iconstyle{
   width: 100px;
     height: auto;
-    color: #13F7D2;   
+    color: #13F7D2; 
+    opacity: 0.5;  
     
 }
 .b{
@@ -252,3 +278,40 @@ color: #FFFFFF;
     }
    
   }
+  @keyframes f {
+    from {
+      transform: translateY(-100px);
+      opacity: 0;}
+    to {
+      transform: translateY(0);
+      opacity:1;}
+  }
+
+  @keyframes big{
+    from {
+      width:0px;
+      height: auto;
+      opacity: 0;}
+    to {
+      width:6.5%;
+      opacity:1;}
+  }
+  @keyframes big1{
+    from {
+      width:0px;
+      height: 0px;
+      opacity: 0;}
+    to {
+      width:25%;
+      opacity:1;}
+  }
+ .iconstyle:hover{
+   opacity: 1;
+   -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+ }
+ .blurb h2:hover{
+  opacity: 1;
+ }
+ 

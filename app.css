@@ -17,6 +17,7 @@ background: #1D1E20;
   margin-left: 0;
   text-align: left;
   margin-top: 100px;
+  
 }
 
 .blurb h2 {
@@ -28,6 +29,8 @@ font-weight: 500;
 font-size: 50px;
 line-height: 61px;
 letter-spacing: 0.2em;
+animation-name:f;
+  animation-duration: 2s;
 
 }
 .lead{
@@ -210,4 +213,9 @@ img.girl{
     margin-top: 100px;
   }
 
+}
+
+@keyframes f {
+  from {color:red;}
+  to {color:white;}
 }
